@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Event Registration Form</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+<h2>Event Registration Form</h2>
+<form id="registrationForm">
+<label>Full Name:</label>
+<input type="text" id="name"><br><br>
+<label>Email Address:</label>
+<input type="text" id="email"><br><br>
+<label>Phone Number:</label>
+<input type="text" id="phone"><br><br>
+<button type="button" onclick="submitForm()">Register</button>
+<button type="button" onclick="resetForm()">Reset</button>
+</form>
+<p id="error" style="color:red;"></p>
+<p id="confirmation"></p>
+</body>
+</html> 
